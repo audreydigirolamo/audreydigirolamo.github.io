@@ -1,0 +1,45 @@
+h1 {
+    color: #ea2e08;
+    font-size: 4em;
+    text-transform: uppercase;
+    
+}
+
+body {
+    font-family: "Roboto Mono", monospace;
+    font-size: 1em;
+    line-height: 2em;
+    text-align: left;
+    background-color: #f4ffe8;
+    background-image: none;
+    width: 50%;
+    height: 100%;
+    list-style-type: none;
+    background-repeat: no-repeat;
+}
+
+a:link {
+    text-decoration: none;    
+    color: #000000;
+    border-bottom: 1px dotted black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #000000;
+    border-bottom: 1px dotted black; 
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ea2e08;
+    border-bottom: 1px dotted #000000;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img.dog-img {
+    width: 30%;
+}
