@@ -6,11 +6,6 @@ h1 {
     
 }
 
-#wrapper {
-    width: 80%;
-    margin: auto;
-    }
-
 body {
     font-family: "Roboto Mono", monospace;
     font-size: 1em;
@@ -23,6 +18,12 @@ body {
     list-style-type: none;
     background-repeat: no-repeat;
 }
+
+#wrapper {
+    width: 80%;
+    margin: auto;
+    }
+
 
 a:link {
     text-decoration: none;    
