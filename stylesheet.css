@@ -1,9 +1,8 @@
 * {margin: 0; padding: 0;}
 h1 {
-    color: #ea2e08;
-    font-size: 4em;
-    text-transform: uppercase;
-    
+    color: #000000;
+    font-size: 2em;
+    text-transform: lowercase
 }
 
 body {
@@ -13,19 +12,43 @@ body {
     text-align: left;
     background-color: #f4ffe8;
     background-image: none;
-    width: 50%;
-    height: 100%;
+    /* width: 50%; */
+    /* height: 100%; */
     list-style-type: none;
     background-repeat: no-repeat;
 }
 
 #wrapper {
-    width: 80%;
+    width: 50%;
     margin: auto;
-    }
+}
+
+nav {
+    width: 15%;
+    margin: 0%;
+    padding: 3%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #f4ffe8;
+    display: inline;
+}
+
+.columns {
+    float:left;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.col-6 {
+    width: 50%;
+
+}
 
 
-a:link {
+ a:link {
     text-decoration: none;    
     color: #000000;
     border-bottom: 1px dotted #000000;
@@ -43,10 +66,12 @@ a:hover {
     border-bottom: 1px dotted #000000;
 }
 
-ul {
-    list-style-type: none;
-}
-
 img.dog-img {
     width: 30%;
+}
+
+footer {
+    width: 100%;
+    margin: 5%;
+    padding: 5%
 }
