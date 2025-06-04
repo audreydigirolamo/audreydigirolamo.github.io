@@ -28,12 +28,13 @@ ul {
   }
   
   li {
-    float: right;
+    float: left;
   }
   
   li a {
     display: block;
     color: rgb(0, 0, 0);
+    background-color: aliceblue;
     text-align: center;
     padding: 16px;
     text-decoration: none;
@@ -41,11 +42,12 @@ ul {
 
 h1 {
     color: #000000;
+    background-color: aliceblue;
     font-size: 6em;
-    float: left;
+    float: right;
     margin: 11px;
     font-feature-settings: "ss01" on;
-    word-spacing: 150px;
+    word-spacing: 40px;
 }
 
 body {
@@ -54,7 +56,7 @@ body {
     line-height: 2em;
     color: #000000;
     text-align: left;
-    background-color: #f6f2f2;
+    background-color: #4517dc;
     background-image: none;
     /* width: 50%; */
     /* height: 100%; */
