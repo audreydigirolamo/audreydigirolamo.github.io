@@ -48,7 +48,17 @@ h1 {
     margin: 11px;
     font-feature-settings: "ss01" on;
     word-spacing: 40px;
+    animation-name: example;
+    animation-duration: 4s;
 }
+
+@keyframes example {
+    from {background-color: aliceblue;}
+    to {background-color: black;}
+    from {color: #000000;}
+    to {color: aliceblue}
+}
+
 
 body {
     font-family: "Roboto Mono", monospace;
@@ -85,6 +95,14 @@ img {
     margin: -4%;
 }
 
+.leg3 {
+    transition: width 5s;
+}
+
+.leg3:hover {
+    width: 800px;
+    }
+
 .columns {
     float:left;
     width: 50%;
@@ -105,10 +123,6 @@ a:visited {
 a:hover {
     text-decoration: none;
     color: #084cea;
-}
-
-img.dog-img {
-    width: 30%;
 }
 
 footer {
